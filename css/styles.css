@@ -1,0 +1,182 @@
+body {
+
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+
+
+margin:auto;
+display:grid;
+grid-template-columns: minmax(100px, 1fr);
+grid-template-rows: 86px 100px 100px;
+
+grid-template-areas:
+
+'nav '
+'main';
+
+}
+
+.alert{
+
+margin: auto;
+
+}
+
+
+
+.showAlert {
+
+  background-color: #661aef;
+  margin: auto;
+  border-radius: 5px;
+  size: fit-content;
+  text-align: center;
+  font-size: 15px;
+
+
+
+}
+
+header {
+
+  background-color: #661aef;
+
+}
+
+.bell{
+
+    width: 25px;
+    height: 25px;
+    margin: auto -20px auto auto;
+}
+
+.graphic {
+
+  width: 10px;
+  height: 10px;
+  margin: auto -20px auto auto;
+
+}
+
+nav {
+
+  grid-area: nav;
+
+}
+
+main {
+
+display:grid;
+grid-area: main;
+
+
+}
+
+h2 {
+
+
+  margin: auto 10px;
+
+}
+
+
+.olList {
+
+  display: flex;
+  border-left: 1px solid ghostwhite;
+  list-style: none;
+}
+
+
+h2,.olList{
+
+padding: 10px;
+color: ghostwhite;
+
+}
+
+
+
+li {
+
+  margin-left: 5px;
+  color: ghostwhite;
+  margin: auto;
+  padding: 10px;
+
+}
+
+
+img {
+
+  width: 33px;
+  height: 28px;
+  border-radius: 50%;
+
+}
+
+.dashboardTitle{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.dashboardTitle h1{
+
+color:#BDB4B4;
+margin-left: 10px;
+}
+
+.inputDash{
+
+float:right;
+ height:67px;
+ width: 60%;
+
+
+}
+
+
+@media(min-width:768px) {
+
+header,ol {
+
+display: flex;
+list-style: none;
+justify-content: space-between;
+
+}
+
+.container {
+
+grid-template-columns: 50px repeat(2,minmax(100px, 1fr));
+grid-template-rows: 86px 100px 100px;
+
+grid-template-areas:
+
+  'nav main main'
+  'nav main main'
+  'nav . .';
+
+}
+
+nav {
+
+  grid-area: nav;
+
+}
+
+main {
+
+display:grid;
+grid-area: main;
+
+  }
+}
+
+@media(min-width:1024px) {
+
+}
