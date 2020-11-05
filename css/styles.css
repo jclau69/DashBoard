@@ -4,7 +4,6 @@ body {
 }
 .container {
 
-
 margin:auto;
 display:grid;
 grid-template-columns: minmax(100px, 1fr);
@@ -23,20 +22,18 @@ margin: auto;
 
 }
 
-
-
 .showAlert {
 
   background-color: #661aef;
-  margin: auto;
+  margin: 1rem;
   border-radius: 5px;
   size: fit-content;
   text-align: center;
   font-size: 15px;
-
-
+  
 
 }
+
 
 header {
 
@@ -44,11 +41,14 @@ header {
 
 }
 
+/*--svg class--*/
+
 .bell{
 
     width: 25px;
     height: 25px;
-    margin: auto -20px auto auto;
+    margin: auto 18px auto auto;
+    cursor: pointer;
 }
 
 .graphic {
@@ -56,14 +56,83 @@ header {
   width: 20px;
   height: 20px;
 
-
 }
 
-nav {
+.members {
 
+  width: 20px;
+  height: 20px;
+}
+
+.settings{
+
+  width: 20px;
+  height: 20px;
+}
+
+.visits{
+
+  width: 20px;
+  height: 20px;
+}
+
+.navSvg {
+
+  background-color: #431E8B;
+  display: flex;
+  flex-direction: column;
   grid-area: nav;
 
 }
+
+.navSvg svg {
+
+  margin: auto;
+}
+
+/* main class styling*/
+
+
+ .traffic-header
+
+  {
+
+display: flex;
+justify-content: space-between;
+list-style: none;
+
+
+ }
+
+ .traffic-header h3{
+
+   margin-left: 5px;
+    padding: 10px;
+
+
+ }
+
+ .traffic-nav {
+
+   display: flex;
+   list-style: none;
+
+
+ }
+
+ .traffic-nav-link{
+
+color: #000000;
+
+ }
+
+ .traffic-nav-link:hover{
+
+   background-color: lightgreen;
+   border-radius: 1rem;
+   cursor:pointer;
+
+ }
 
 main {
 
@@ -73,15 +142,14 @@ grid-area: main;
 
 }
 
+
 h2 {
 
-
-  margin: auto 10px;
+margin: auto 10px;
 
 }
 
-
-.olList {
+ol {
 
   display: flex;
   border-left: 1px solid ghostwhite;
@@ -89,7 +157,7 @@ h2 {
 }
 
 
-h2,.olList{
+h2,ol{
 
 padding: 10px;
 color: ghostwhite;
@@ -116,6 +184,7 @@ img {
 
 }
 
+
 .dashboardTitle{
 
 display: flex;
@@ -126,7 +195,7 @@ justify-content: space-between;
 
 .dashboardTitle h1{
 
-color:#BDB4B4;
+color:color: :#BDB4B4;;
 margin-left: 10px;
 }
 
