@@ -16,3 +16,10 @@ span.style.padding = '2px';
 span.style.color = 'ghostwhite';
 span.style.fontStyle = "light";
 span.style.cursor = 'pointer';
+
+h2.addEventListener('click', (e) => {
+
+if(e.target.tagName === 'SPAN'){
+h2.remove();
+}
+});

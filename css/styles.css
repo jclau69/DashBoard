@@ -30,7 +30,7 @@ margin: auto;
   size: fit-content;
   text-align: center;
   font-size: 15px;
-  
+
 
 }
 
@@ -55,6 +55,7 @@ header {
 
   width: 20px;
   height: 20px;
+  cursor: pointer;
 
 }
 
@@ -62,18 +63,21 @@ header {
 
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .settings{
 
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .visits{
 
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .navSvg {
