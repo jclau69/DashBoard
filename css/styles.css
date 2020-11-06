@@ -138,6 +138,13 @@ color: #000000;
 
  }
 
+ .chartDown{
+
+   text-align: right;
+   padding: 1rem;
+
+ }
+
 main {
 
 display:grid;

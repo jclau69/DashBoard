@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="draw();">
 
 <svg display='none' xmlns="http://www.w3.org/2000/svg" >
   <symbol  id='bell' viewBox="0 0 32 32" >
@@ -122,6 +122,7 @@
 <li class="traffic-nav-link active">Weekly</li>
 <li class="traffic-nav-link">Monthly</li>
 </ul>
+
 </div>
 
 <div class="widget-container-full">
@@ -129,15 +130,23 @@
 
 </section>
 
+<section class="chart">
 
+<div class="chartDown">
 
+<canvas id="daily-chart" width='600' height='200'>
+
+</canvas>
+
+</section>
 
   </main>
 
 </div>
 
 
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="JS/app.js"></script>
+<script type="text/javascript" src="JS/canvas.js"></script>
 
 </body>
 
