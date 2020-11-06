@@ -153,6 +153,12 @@ margin: auto 10px;
 
 }
 
+span:hover{
+
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
 ol {
 
   display: flex;

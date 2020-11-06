@@ -11,7 +11,7 @@ h2.appendChild(span);
 span.textContent = 'X';
 span.style.position = "absolute";
 span.style.right = '0';
-span.style.top = '-3px';
+span.style.top = '-1px';
 span.style.padding = '2px';
 span.style.color = 'ghostwhite';
 span.style.fontStyle = "light";
