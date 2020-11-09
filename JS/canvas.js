@@ -1,5 +1,5 @@
 var canvas = document.getElementById('daily-chart');
-
+var numbers = [0,40,80,120,160,180,200];
 
 
 function draw() {
@@ -57,14 +57,13 @@ for(var i = 1; i <= 12; i++) {
 
 }
 
-
 ctx.beginPath();
 
 ctx.moveTo(60,200);
-ctx.lineTo(120, 180);
-ctx.moveTo(120, 180);
-ctx.lineTo(180, 160);
-ctx.moveTo(180, 160);
+ctx.lineTo(120, 160);
+ctx.moveTo(120, 160);
+ctx.lineTo(180, 40);
+ctx.moveTo(180, 40);
 ctx.lineTo(240, 200);
 ctx.moveTo(240, 200);
 ctx.lineTo(300, 40);
@@ -83,8 +82,6 @@ ctx.lineTo(660,120);
 ctx.moveTo(660,120);
 ctx.lineTo(720,40);
 
-
 ctx.stroke();
 }
-
   }
