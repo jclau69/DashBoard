@@ -1,5 +1,6 @@
 body {
 
+  max-width: 1024;
   font-family: 'Montserrat', sans-serif;
 }
 .container {
@@ -104,14 +105,14 @@ header {
 display: flex;
 justify-content: space-between;
 list-style: none;
-margin-right: 15px;
+margin-right: 43px;
 
 
  }
 
  .traffic-header h3{
 
-   margin-left: 5px;
+   margin-left: 46px;
     padding: 10px;
 
 
@@ -141,10 +142,12 @@ color: #000000;
 
  .chartDown{
 
-   text-align: right;
+   text-align: center;
 
 
  }
+
+
 
 main {
 
@@ -246,7 +249,8 @@ grid-template-areas:
 
   'nav main main'
   'nav main main'
-  'nav . .';
+  'nav . .'
+  ;
 
 }
 
@@ -254,6 +258,11 @@ nav {
 
   grid-area: nav;
 
+}
+
+.navSvg  {
+
+  height: 100vh;
 }
 
 main {
