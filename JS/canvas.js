@@ -1,5 +1,7 @@
 var canvas = document.getElementById('daily-chart');
 
+
+
 function draw() {
 
   if (canvas.getContext) {
@@ -9,8 +11,6 @@ function draw() {
 
     ctx.font = '10px Montserrat, sans-serif';
     ctx.textBaseline = 'middle';
-
-
 
     // canvas column numbers
 
@@ -22,7 +22,7 @@ function draw() {
 
     //row date
 
-    ctx.fillText('16-22', 80, 220);
+    ctx.fillText('16-22', 78, 220);
     ctx.fillText('23-29', 138, 220);
     ctx.fillText('30-5', 200, 220);
     ctx.fillText('6-12', 260, 220);
@@ -48,7 +48,7 @@ for(var i = 0; i <= 5; i++) {
 
 for(var i = 1; i <= 12; i++) {
 
-    ctx.beginPath()
+    ctx.beginPath();
     ctx.moveTo(i*60, 0);
     ctx.lineTo(i*60, 200);
 
@@ -57,5 +57,34 @@ for(var i = 1; i <= 12; i++) {
 
 }
 
+
+ctx.beginPath();
+
+ctx.moveTo(60,200);
+ctx.lineTo(120, 180);
+ctx.moveTo(120, 180);
+ctx.lineTo(180, 160);
+ctx.moveTo(180, 160);
+ctx.lineTo(240, 200);
+ctx.moveTo(240, 200);
+ctx.lineTo(300, 40);
+ctx.moveTo(300, 40);
+ctx.lineTo(360, 0);
+ctx.moveTo(360, 0);
+ctx.lineTo(420, 160);
+ctx.moveTo(420, 160);
+ctx.lineTo(480, 40);
+ctx.moveTo(480,40);
+ctx.lineTo(540, 200);
+ctx.moveTo(540, 200);
+ctx.lineTo(600,40);
+ctx.moveTo(600, 40);
+ctx.lineTo(660,120);
+ctx.moveTo(660,120);
+ctx.lineTo(720,40);
+
+
+ctx.stroke();
 }
+
   }
