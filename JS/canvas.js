@@ -27,11 +27,11 @@ function draw() {
     ctx.fillText('30-5', 200, 220);
     ctx.fillText('6-12', 260, 220);
     ctx.fillText('13-19', 320, 220);
-    ctx.fillText('20-26', 380, 220);
+    ctx.fillText('20-26', 375, 220);
     ctx.fillText('27-3', 440, 220);
     ctx.fillText('4-10', 500, 220);
     ctx.fillText('11-17', 560, 220);
-    ctx.fillText('18-24', 620, 220);
+    ctx.fillText('18-24', 618, 220);
     ctx.fillText('25-31', 680, 220);
 
 
