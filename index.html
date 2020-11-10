@@ -5,12 +5,13 @@
 
   <title>DashBoard1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body onload="draw();">
+<body>
 
 <svg display='none' xmlns="http://www.w3.org/2000/svg" >
   <symbol  id='bell' viewBox="0 0 32 32" >
@@ -114,9 +115,9 @@
 
 <section class="traffic">
 
-<div class="traffic-header">
+<div id='divTraffic'class="traffic-header">
 <h3>Traffic</h3>
-<ul class="traffic-nav">
+<ul  class="traffic-nav">
 <li class="traffic-nav-link">Hourly</li>
 <li class="traffic-nav-link">Daily</li>
 <li class="traffic-nav-link active">Weekly</li>
@@ -134,7 +135,7 @@
 
 <div class="chartDown">
 
-<canvas id="daily-chart" width='724' height='241'>
+<canvas  id="daily-chart">
 
 </canvas>
 
@@ -149,6 +150,8 @@
 
 <script type="text/javascript" src="JS/app.js"></script>
 <script type="text/javascript" src="JS/canvas.js"></script>
+<script>var myChart = new Chart(ctx, {...}); </script>
+
 
 </body>
 
