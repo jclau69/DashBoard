@@ -10,25 +10,39 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26','27-3','4-10',
-        '11-17','18-24','25-31'],
-
 
         datasets: [{
-            backgroundColor: '#e0d5f5',
+
             data: [500,1000,1500,2000,2500],
-            pointBackgroundColor:'ghostwhite',
-          
+            backgroundColor: '#e0d5f5',
+            pointBackgroundColor:'ghostwhite'
 
+            yAxisID: 'left-y-axis'
 
-        }]
-    },
+        },{
+            data:[0,1,2,3,4,5,6,7,8,9,10,11],
+            labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26','27-3','4-10',
+            '11-17','18-24','25-31'],
 
+          yAxisID: 'left-x-axis'
+
+        }],
+
+},
     // Configuration options go here
     options: {
 
-      legend:{
-        display:false
-      }
-    }
+      scales: {
+            yAxes: [{
+                id: 'left--axis',
+                type: 'linear'
+
+            }, {
+                id: 'right-y-axis',
+                type: 'linear',
+                position: 'left'
+            }]
+        }
+
+  }
 });
