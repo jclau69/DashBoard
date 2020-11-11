@@ -1,19 +1,34 @@
 var ctx = document.getElementById('daily-chart').getContext('2d');
+
+Chart.defaults.global.defaultFontFamily = 'Montserrat';
+Chart.defaults.global.elements.point.radius = 4;
+Chart.defaults.global.elements.point.borderColor = '#661aef';
+
 var chart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'line',
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26','27-3','4-10',
+        '11-17','18-24','25-31'],
+
+
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45]
+            backgroundColor: '#e0d5f5',
+            data: [500,1000,1500,2000,2500],
+            pointBackgroundColor:'ghostwhite',
+          
+
+
         }]
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+
+      legend:{
+        display:false
+      }
+    }
 });
