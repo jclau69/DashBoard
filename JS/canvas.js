@@ -14,13 +14,12 @@ var chart = new Chart(ctx, {
       '11-17','18-24','25-31'],
 
       datasets: [{
-    data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    data: [500,1000,1500,2000,2500],
     backgroundColor: '#e0d5f5',
     pointBackgroundColor: 'ghostwhite'
 
   }],
 },
-
 
     // Configuration options go here
     options: {
