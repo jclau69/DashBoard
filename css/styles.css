@@ -52,18 +52,15 @@ header {
     cursor: pointer;
 }
 
-.graphic {
+.daily {
 
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-
+  margin: auto;
 }
 
 .members {
 
   width: 20px;
-  height: 20px;
+   height: 20px;
   cursor: pointer;
 }
 
@@ -92,8 +89,12 @@ header {
 
 .navSvg svg {
 
-  margin: auto;
+  width: 25px;
+  height: 25px;
+  margin: 20px auto 15px auto;
+  cursor: pointer;
 }
+
 
 /* main class styling*/
 
@@ -248,6 +249,7 @@ grid-template-rows: 86px 100px 100px;
 
 grid-template-areas:
 
+  'nav main main'
   'nav main main'
   'nav main main'
   'nav . .'
