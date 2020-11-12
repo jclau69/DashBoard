@@ -2,10 +2,20 @@ body {
 
   max-width: 1024;
   font-family: 'Montserrat', sans-serif;
+
 }
+
+header {
+
+  background-color: #661aef;
+  grid-area: header;
+
+}
+
 .container {
 
-margin:auto;
+margin: auto;
+padding: 0;
 display:grid;
 grid-template-columns: minmax(100px, 1fr);
 grid-template-rows: 86px 100px 100px;
@@ -36,11 +46,6 @@ margin: auto;
 }
 
 
-header {
-
-  background-color: #661aef;
-
-}
 
 /*--svg class--*/
 
@@ -54,7 +59,10 @@ header {
 
 .daily {
 
-  margin: auto;
+
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+
 }
 
 .members {
@@ -163,6 +171,8 @@ grid-area: main;
 h2 {
 
 margin: auto 10px;
+padding: 10px;
+color: ghostwhite;
 
 }
 
@@ -177,16 +187,9 @@ ol {
   display: flex;
   border-left: 1px solid ghostwhite;
   list-style: none;
+  margin: auto 10px;
+  padding: 10px;
 }
-
-
-h2,ol{
-
-padding: 10px;
-color: ghostwhite;
-
-}
-
 
 
 li {
@@ -249,12 +252,21 @@ grid-template-rows: 86px 100px 100px;
 
 grid-template-areas:
 
-  'nav main main'
-  'nav main main'
-  'nav main main'
-  'nav . .'
+  'header header header'
+  'nav main main '
+  'nav main main '
+  'nav main main '
+  'nav main main '
+  'nav main main '
+  'nav main main '
   ;
 
+}
+
+header {
+
+  background-color: #661aef;
+  grid-area: header;
 }
 
 nav {
@@ -263,19 +275,27 @@ nav {
 
 }
 
-.navSvg  {
-
-  height: 100vh;
-}
-
 main {
 
 display:grid;
 grid-area: main;
 
   }
-}
 
-@media(min-width:1024px) {
+  .chart{
 
-}
+    padding: 1rem;
+  }
+  
+  .daily {
+
+
+    display: flex;
+
+  }
+
+  .bar {
+
+    border-right:1px solid lightgrey;
+
+  }
