@@ -3,8 +3,9 @@ var bar = document.getElementById('barMeter').getContext('2d');
 var dough = document.getElementById('doughMeter').getContext('2d');
 
 var numbers = [500,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500];
-var numbersDayly = [50,100,150,200,250,300,350];
+var numbersDaily = [50,100,150,200,250,300,350];
 var numbersDoughNut = [10,20,30];
+
 Chart.defaults.global.defaultFontFamily = 'Montserrat';
 Chart.defaults.global.elements.point.radius = 4;
 Chart.defaults.global.elements.point.borderColor = '#661aef';
@@ -55,7 +56,9 @@ data: {
   labels: ['S','M','T','W','T','F','S'],
 
   datasets: [{
-data: numbersDayly,
+
+
+data: numbersDaily,
 backgroundColor: '#e0d5f5',
 pointBackgroundColor: 'ghostwhite'
 
@@ -64,20 +67,30 @@ pointBackgroundColor: 'ghostwhite'
 
 options: {
 
-  layout: {
-        padding: {
-            left: 30,
-            right: 30,
-            top: 30,
-            bottom: 10
-        }
-    },
+  title:{
+
+      display:true,
+      text:'Daily traffic',
+      position:'left'
+
+  },
 
   legend:{
 
     display:false
+  },
+
+  layout: {
+
+        // padding: {
+        //     left: 0,
+        //     right: 0,
+        //     top: 100,
+        //     bottom: 0
+        // }
   }
 }
+
 });
 
 var doughGraph = new Chart(dough, {

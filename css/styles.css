@@ -1,6 +1,5 @@
 body {
 
-  max-width: 1024;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -63,6 +62,12 @@ margin: auto;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
 
+}
+
+.bar {
+
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .members {
@@ -286,7 +291,7 @@ grid-area: main;
 
     padding: 1rem;
   }
-  
+
   .daily {
 
 
