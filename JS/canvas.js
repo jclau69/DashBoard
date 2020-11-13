@@ -123,6 +123,5 @@ var doughGraph = new Chart(dough, {
 
       },
 
-
 }
   });

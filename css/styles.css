@@ -1,6 +1,7 @@
 body {
 
   font-family: 'Montserrat', sans-serif;
+  background-color: 'ligthgrey';
 
 }
 
@@ -70,27 +71,30 @@ margin: auto;
   font-weight: bold;
 }
 
-.members {
+.members,
+.settings,
+.visits,
+
+{
 
   width: 20px;
    height: 20px;
   cursor: pointer;
 }
 
-.settings{
+.tweet,
+.facebook,
+.goog {
 
-  width: 20px;
-  height: 20px;
+
+
+  width: 30px;
+   height: 30px;
   cursor: pointer;
+  background-color: #e0d5f5;
+
+
 }
-
-.visits{
-
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
 .navSvg {
 
   background-color: #431E8B;
@@ -162,7 +166,16 @@ color: #000000;
 
  }
 
-.daily h3{
+.SocialStats {
+
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin: 3rem;
+}
+
+.daily h3,
+.social h3{
 
   font-size: 10px;
   font-weight: bolder;
@@ -261,9 +274,12 @@ justify-content: space-between;
 grid-template-columns: 50px repeat(2,minmax(100px, 1fr));
 grid-template-rows: 86px 100px 100px;
 
+
 grid-template-areas:
 
   'header header header'
+  'nav main main '
+  'nav main main '
   'nav main main '
   'nav main main '
   'nav main main '
