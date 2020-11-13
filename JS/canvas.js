@@ -91,11 +91,17 @@ var doughGraph = new Chart(dough, {
   type: 'doughnut',
 
   data: {
-    labels: ['Phones','Tablets','Desktop'],
+  labels: ['Phones','Tablets','Desktop'],
 
     datasets: [{
-  data: numbersDoughNut,
-  pointBackgroundColor: 'ghostwhite'
+
+      backgroundColor: [
+       'red',
+       'green',
+       'blue'
+   ],
+      data: numbersDoughNut,
+      pointBackgroundColor: 'ghostwhite'
 
   }],
   },
@@ -115,13 +121,8 @@ var doughGraph = new Chart(dough, {
 
       position:'right',
 
-      labels:
 
-        ['lightgreen',
-        'lightblue',
-        'red']
 
-      },
-
+}
 }
   });
