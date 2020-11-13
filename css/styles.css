@@ -162,7 +162,13 @@ color: #000000;
 
  }
 
+.daily h3{
 
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 10px;
+  color: 'lightgrey';
+}
 
 main {
 

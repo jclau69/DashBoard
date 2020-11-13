@@ -59,7 +59,7 @@ data: {
 
 
 data: numbersDaily,
-backgroundColor: '#e0d5f5',
+backgroundColor: '#431E8B',
 pointBackgroundColor: 'ghostwhite'
 
 }],
@@ -67,13 +67,6 @@ pointBackgroundColor: 'ghostwhite'
 
 options: {
 
-  title:{
-
-      display:true,
-      text:'Daily traffic',
-      position:'left'
-
-  },
 
   legend:{
 
@@ -98,16 +91,15 @@ var doughGraph = new Chart(dough, {
   type: 'doughnut',
 
   data: {
-    labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26','27-3','4-10',
-    '11-17','18-24','25-31'],
+    labels: ['Phones','Tablets','Desktop'],
 
     datasets: [{
   data: numbersDoughNut,
-  backgroundColor: '#e0d5f5',
   pointBackgroundColor: 'ghostwhite'
 
   }],
   },
+
   options: {
 
     layout: {
@@ -121,7 +113,16 @@ var doughGraph = new Chart(dough, {
 
     legend:{
 
-      display:false
-    }
+      position:'right',
+
+      labels:
+
+        ['lightgreen',
+        'lightblue',
+        'red']
+
+      },
+
+
 }
-});
+  });
