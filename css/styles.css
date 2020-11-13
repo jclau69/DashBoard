@@ -86,15 +86,25 @@ margin: auto;
 .facebook,
 .goog {
 
-
-
   width: 30px;
    height: 30px;
+   margin: auto;
+   transform-origin: 50% 50%;
   cursor: pointer;
-  background-color: #e0d5f5;
 
 
 }
+
+.tweeter{
+
+
+
+    width: 10%;
+    height: 7vh;
+  background-color: #661aef;
+  border-radius: 50%;
+}
+
 .navSvg {
 
   background-color: #431E8B;
