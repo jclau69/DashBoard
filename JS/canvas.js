@@ -78,7 +78,7 @@ options: {
 
         padding: {
             left: 5,
-            right: 30,
+            right: 15,
             top: 5,
             bottom: 5
         }
