@@ -35,7 +35,7 @@ var chart = new Chart(graph, {
       layout: {
             padding: {
                 left: 0,
-                right: 265,
+                right: 125,
                 top: 0,
                 bottom: 30
             }
@@ -76,12 +76,12 @@ options: {
 
   layout: {
 
-        // padding: {
-        //     left: 0,
-        //     right: 0,
-        //     top: 100,
-        //     bottom: 0
-        // }
+        padding: {
+            left: 5,
+            right: 30,
+            top: 5,
+            bottom: 5
+        }
   }
 }
 
@@ -114,7 +114,7 @@ var doughGraph = new Chart(dough, {
     layout: {
           padding: {
               left: 10,
-              right: 10,
+              right: 30,
               top: 10,
               bottom: 30
           }

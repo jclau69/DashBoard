@@ -1,7 +1,7 @@
 body {
 
   font-family: 'Montserrat', sans-serif;
-  background-color: 'ligthgrey';
+  background-color: lightgrey;
 
 }
 
@@ -28,7 +28,7 @@ grid-template-areas:
 'nav '
 'main';
 
-
+background-color: white;
 
 }
 
@@ -114,15 +114,15 @@ grid-template-areas:
 display: flex;
 justify-content: space-between;
 list-style: none;
-margin-right: 43px;
+margin-right: 26%;
 
 
  }
 
  .traffic-header h3{
 
-   margin-left: 46px;
-    padding: 10px;
+   margin-left: 9px;
+    padding: 3px;
 
 
  }
@@ -231,7 +231,7 @@ img {
 
 display: flex;
 justify-content: space-between;
-width: 40rem;
+width: 640px;
 
 }
 
@@ -256,8 +256,6 @@ justify-content: space-between;
 }
 
 .container {
-
-
 
 grid-template-columns: 50px repeat(5,minmax(100px, 1fr));
 grid-template-rows: 86px 100px 100px;
@@ -299,9 +297,15 @@ grid-area: main;
 
   }
 
+  .dailyChart{
+
+    display: flex;
+    margin: auto;
+
+  }
+
   .chart{
 
-    padding: 4rem;
     width: 768px;
   }
 
@@ -314,13 +318,14 @@ grid-area: main;
 
 .alert{
 
-  margin: auto 15rem auto 1rem;
+  margin: auto 16rem auto 1rem;
 }
 
   .daily {
 
 
     display: flex;
+    margin-right: 221px;
 
   }
 
