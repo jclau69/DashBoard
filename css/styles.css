@@ -316,6 +316,20 @@ grid-area: main;
 
   }
 
+  .tweetBack,
+  .faceBack,
+  .googBack{
+
+    background-color: 'ligthgrey';
+    height: 4rem;
+    width: 15rem;
+    background-color: lightgrey;
+    border-radius: .5rem;
+    padding: 12px;
+    margin: 10px;
+
+  }
+
   .tweet,
   .goog,
   .facebook {
