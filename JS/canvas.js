@@ -11,6 +11,7 @@ Chart.defaults.global.elements.point.radius = 4;
 Chart.defaults.global.elements.point.borderColor = '#661aef';
 
 
+
 var chart = new Chart(graph, {
     // The type of chart we want to create
     type: 'line',
@@ -96,9 +97,9 @@ var doughGraph = new Chart(dough, {
     datasets: [{
 
       backgroundColor: [
-       'red',
-       'green',
-       'blue'
+       'lightgreen',
+       '#009688',
+       '#431E8B'
    ],
       data: numbersDoughNut,
       pointBackgroundColor: 'ghostwhite'
@@ -110,16 +111,18 @@ var doughGraph = new Chart(dough, {
 
     layout: {
           padding: {
-              left: 30,
-              right: 30,
-              top: 30,
-              bottom: 10
+              left: 10,
+              right: 10,
+              top: 10,
+              bottom: 30
           }
       },
 
     legend:{
 
       position:'right',
+      boxWidth:'10'
+
 
 
 
