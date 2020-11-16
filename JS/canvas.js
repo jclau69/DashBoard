@@ -34,10 +34,10 @@ var chart = new Chart(graph, {
 
       layout: {
             padding: {
-                left: 50,
-                right: 50,
-                top: 50,
-                bottom: 10
+                left: 0,
+                right: 265,
+                top: 0,
+                bottom: 30
             }
         },
 

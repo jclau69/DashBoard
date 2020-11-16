@@ -19,8 +19,6 @@ svg{
 
 .container {
 
-margin: auto;
-padding: 0;
 display:grid;
 grid-template-columns: minmax(100px, 1fr);
 grid-template-rows: 86px 100px 100px;
@@ -30,13 +28,10 @@ grid-template-areas:
 'nav '
 'main';
 
-}
 
-.alert{
-
-margin: auto;
 
 }
+
 
 .showAlert {
 
@@ -86,6 +81,8 @@ margin: auto;
    height: 20px;
   cursor: pointer;
 }
+
+
 
 
 
@@ -156,6 +153,7 @@ color: #000000;
 
    text-align: center;
    padding: 10px;
+   width: 768px;
 
 
  }
@@ -233,7 +231,7 @@ img {
 
 display: flex;
 justify-content: space-between;
-
+width: 40rem;
 
 }
 
@@ -241,19 +239,13 @@ justify-content: space-between;
 
 color:color: :#BDB4B4;;
 margin-left: 10px;
-}
-
-.inputDash{
-
-float:right;
- height:67px;
- width: 60%;
-
 
 }
 
 
 @media(min-width:768px) {
+
+
 
 header,ol {
 
@@ -265,22 +257,26 @@ justify-content: space-between;
 
 .container {
 
-grid-template-columns: 50px repeat(2,minmax(100px, 1fr));
+
+
+grid-template-columns: 50px repeat(5,minmax(100px, 1fr));
 grid-template-rows: 86px 100px 100px;
 
 
 grid-template-areas:
 
-  'header header header'
-  'nav main main '
-  'nav main main '
-  'nav main main '
-  'nav main main '
-  'nav main main '
-  'nav main main '
-  'nav main main '
-  'nav main main '
+  'header header header header header header'
+  'nav main main main main main'
+  'nav main main main main main '
+  'nav main main main main main'
+  'nav main main main main main '
+  'nav main main main main main'
+  'nav main main main main main'
+  'nav main main main main main'
+  'nav main main main main main'
   ;
+
+
 
 }
 
@@ -305,8 +301,21 @@ grid-area: main;
 
   .chart{
 
-    padding: 1rem;
+    padding: 4rem;
+    width: 768px;
   }
+
+
+
+.inputDash {
+
+  width: 62%;
+}
+
+.alert{
+
+  margin: auto 15rem auto 1rem;
+}
 
   .daily {
 
@@ -319,6 +328,11 @@ grid-area: main;
 
     border-right:1px solid lightgrey;
 
+  }
+
+  .social {
+
+    border-bottom: 1px solid lightgrey;
   }
 
   .tweetBack,
