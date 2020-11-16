@@ -339,7 +339,7 @@ grid-area: main;
   .goog
    {
 
-    width: 26px;
+    width: 41px;
     height: 26px;
      margin: auto;
 
@@ -381,12 +381,12 @@ grid-area: main;
 .textBook
 {
 
-  margin: 4px 21px;
+  margin: 4px 20px;
 }
 
 .textGoog{
 
-  margin: 4px 26px;
+  margin: 4px 11px;
 }
 
 .textTweet p,
