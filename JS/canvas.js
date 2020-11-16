@@ -107,7 +107,7 @@ var doughGraph = new Chart(dough, {
       pointBackgroundColor: 'ghostwhite'
 
   }],
-},
+
 
   options: {
 
