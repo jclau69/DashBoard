@@ -107,7 +107,7 @@ var doughGraph = new Chart(dough, {
       pointBackgroundColor: 'ghostwhite'
 
   }],
-  },
+},
 
   options: {
 
@@ -121,9 +121,12 @@ var doughGraph = new Chart(dough, {
       },
 
       legend:{
-          position:'right',
-          labels: {
-            boxWidth: 10,
-          }
+            position:'right',
+            labels: {
+              boxWidth: 10,
+            }
+  }
+
 }
+
   });
