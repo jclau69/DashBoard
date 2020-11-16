@@ -116,7 +116,7 @@ var doughGraph = new Chart(dough, {
               left: 10,
               right: 10,
               top: 10,
-              bottom: 10
+              bottom: 30
           }
 
   },
@@ -125,7 +125,7 @@ var doughGraph = new Chart(dough, {
        position:'right',
        labels: {
          boxWidth: 15,
-         
+
        }
    }
 

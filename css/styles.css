@@ -12,6 +12,11 @@ header {
 
 }
 
+svg{
+
+  overflow: visible;
+}
+
 .container {
 
 margin: auto;
@@ -331,8 +336,8 @@ grid-area: main;
   }
 
   .tweet,
-  .goog,
-  .facebook {
+  .goog
+   {
 
     width: 26px;
     height: 26px;
@@ -350,12 +355,66 @@ grid-area: main;
   background-Color: #431E8B;
 }
 
+.tweetBack{
+
+  display: flex;
+}
+
 .tweeter {
   padding-top: 8px;
 }
 
+.facebook{
+
+  padding-left: 10px;
+  width: 35px;
+  height: 35px;
+  margin: auto auto auto -2px;
+}
+
+.textTweet
+{
+
+  margin: 4px 10px;
+}
+
+.textBook
+{
+
+  margin: 4px 21px;
+}
+
+.textGoog{
+
+  margin: 4px 26px;
+}
+
 .textTweet p,
-.textTweet h3{
+.textTweet h3,
+.textBook p,
+.textBook h3,
+.textGoog p,
+.textGoog h3{
 
   margin:auto;
+}
+
+.textTweet p,
+.textBook p,
+.textGoog p{
+
+  font-size: 10px;
+  font-weight: bolder;
+  color: #431E8B;
+
+}
+
+.textTweet h3,
+.textBook h3,
+.textGoog h3 {
+
+  color: #431E8B;
+  font-size: 20px;
+  margin: -17px auto auto -9px;
+
 }
