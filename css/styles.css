@@ -353,3 +353,9 @@ grid-area: main;
 .tweeter {
   padding-top: 8px;
 }
+
+.textTweet p,
+.textTweet h3{
+
+  margin:auto;
+}

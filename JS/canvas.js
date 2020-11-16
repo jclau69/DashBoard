@@ -93,11 +93,7 @@ var doughGraph = new Chart(dough, {
 
   data: {
   labels: ['Phones','Tablets','Desktop'],
-  legend:{
-      position:'right',
-      labels: {
-        boxWidth: 10,
-      }
+
     },
 
     datasets: [{
@@ -124,6 +120,10 @@ var doughGraph = new Chart(dough, {
           }
       },
 
-
+      legend:{
+          position:'right',
+          labels: {
+            boxWidth: 10,
+          }
 }
   });
