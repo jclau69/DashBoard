@@ -116,7 +116,7 @@ var doughGraph = new Chart(dough, {
               left: 10,
               right: 30,
               top: 10,
-              bottom: 30
+              bottom: 10
           }
 
   },
