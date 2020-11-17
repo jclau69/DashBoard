@@ -31,13 +31,14 @@ grid-template-areas:
 
 background-color: white;
 
+
 }
 
 
 .showAlert {
 
   background-color: #661aef;
-  margin: 1rem;
+  margin: auto 106px auto -5px;
   border-radius: 5px;
   size: fit-content;
   text-align: center;
@@ -109,7 +110,7 @@ background-color: white;
 display: flex;
 justify-content: space-between;
 list-style: none;
-margin-right: 176px;
+margin-right: 347px;
 
 
  }
@@ -157,7 +158,9 @@ color: #000000;
 
   display: flex;
   justify-content: space-between;
-  margin-right: 166px;
+  margin-right: 338px;
+  margin-bottom: 4%;
+
 
 
 }
@@ -255,7 +258,6 @@ margin-left: 10px;
 @media(min-width:768px) {
 
 
-
 header,ol {
 
 display: flex;
@@ -267,8 +269,6 @@ justify-content: space-between;
 .container {
 
 grid-template-columns: 50px repeat(5,minmax(100px, 1fr));
-grid-template-rows: 86px 100px 100px;
-
 
 grid-template-areas:
 
@@ -281,7 +281,8 @@ grid-template-areas:
   'nav main main main main main'
   'nav main main main main main'
   'nav main main main main main'
-  ;
+  'nav main main main main main'
+  'nav main main main main main';
 
 
 
@@ -309,7 +310,7 @@ grid-area: main;
   .dailyChart{
 
     display: flex;
-  
+
 
   }
 
@@ -329,6 +330,7 @@ grid-area: main;
 .alert{
 
   margin: auto 14rem auto auto;
+  width: 768px;
 }
 
   .daily {
@@ -337,6 +339,7 @@ grid-area: main;
     display: flex;
     margin-right: 221px;
     width: 768px;
+    border-bottom: 1px solid lightgrey;
 
   }
 
@@ -454,5 +457,75 @@ grid-area: main;
   color: #431E8B;
   font-size: 20px;
   margin: -17px auto auto -9px;
+
+}
+
+.members h3{
+
+  font-size: 10px;
+    font-weight: bolder;
+    padding: 2%;
+
+}
+
+.member{
+
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+}
+
+.newMembers,
+.recentActivity {
+
+  padding: 1%;
+}
+
+.memberIn {
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.date {
+
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+.last{
+
+margin-left: 4px;
+
+}
+.textMembers{
+
+  margin-left: 1rem;
+}
+
+.textMembers p
+ {
+
+  font-size: 10px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.textMembers h4 {
+
+
+  font-size: 10px;
+  font-weight: bolder;
+  color: #431E8B;
+
+}
+
+.datemember{
+
+  font-size: 10px;
+  font-weight: bolder;
 
 }
