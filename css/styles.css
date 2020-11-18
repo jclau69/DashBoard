@@ -275,17 +275,16 @@ grid-template-columns: 50px repeat(5,minmax(100px, 1fr));
 grid-template-areas:
 
   'header header header header header header'
-  'nav main main main main main'
   'nav main main main main main '
-  'nav main main main main main'
   'nav main main main main main '
-  'nav main main main main main'
-  'nav main main main main main'
-  'nav main main main main main'
-  'nav main main main main main'
-  'nav main main main main main'
-  'nav main main main main main';
-
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main ';
 
 
 }
@@ -469,7 +468,7 @@ grid-area: main;
 
   font-size: 10px;
     font-weight: bolder;
-    padding: 2%;
+    padding: 10px;
 
 }
 
@@ -477,7 +476,7 @@ grid-area: main;
 
   display: flex;
   justify-content: flex-start;
-  border-bottom: 1px solid lightgrey;
+
 }
 
 .newMembers,
@@ -497,8 +496,6 @@ grid-area: main;
   display: flex;
   justify-content: flex-start;
   height: 50px;
-  margin-bottom: 10px;
-  margin-top: 10px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -529,7 +526,10 @@ margin-left: 5px;
 .textMembers{
 
   margin-left: 1rem;
+  margin-top: 6px;
 }
+
+
 
 .textMembers p
  {
@@ -540,6 +540,29 @@ margin-left: 5px;
 }
 
 .textMembers h4 {
+
+
+  font-size: 10px;
+  font-weight: bolder;
+  color: #431E8B;
+
+}
+
+.textMembers1{
+
+  margin-left: 1rem;
+  margin-top: -1px;
+}
+
+.textMembers1 p
+ {
+
+  font-size: 10px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.textMembers1 h4 {
 
 
   font-size: 10px;
@@ -561,4 +584,75 @@ margin-left: 5px;
   font-size: 20px;
   font-weight: bolder;
   margin-right: 30px;
+}
+
+.messageUsersGene{
+
+  display:flex;
+}
+
+.sendEmail,
+.setProfil,
+.button {
+
+  display:flex;
+}
+
+.messageUser,
+.settingUsers
+{
+
+  width: 327.5px
+
+}
+
+.messageUser {
+
+border-right: 1px solid lightgrey;
+
+}
+
+.messageUser h3,
+.settingUsers h3 {
+
+  font-size: 10px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.settingUsers,
+.inputUser {
+
+
+  margin: 0 10px 10px 10px;
+  width: 307.5px;
+
+}
+
+.settingUsers {
+
+    border-right: 1px solid lightgrey;
+}
+
+.inputUser,
+.textArea
+{
+
+margin: 0 10px 10px 10px;
+width: 307.5px;
+background-color: #f5f0ff;
+border-radius: 5px;
+
+}
+
+input[type="submit"]{
+
+  margin: 0 10px 10px 10px;
+  width: 307.5px;
+  height: 30px;
+  background-color: #431E8B;
+  border-radius: 5px;
+  color: ghostwhite;
+  font-size: 10px;
+  text-align: center;
 }
