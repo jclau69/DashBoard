@@ -621,17 +621,15 @@ border-right: 1px solid lightgrey;
 }
 
 .settingUsers,
-.inputUser {
+{
 
 
+  font-size: 10px;
   margin: 0 10px 10px 10px;
   width: 307.5px;
+  height: 30px;
+  border: 1px solid lightgrey;
 
-}
-
-.settingUsers {
-
-    border-right: 1px solid lightgrey;
 }
 
 .inputUser,
@@ -640,8 +638,11 @@ border-right: 1px solid lightgrey;
 
 margin: 0 10px 10px 10px;
 width: 307.5px;
+height: 30px;
 background-color: #f5f0ff;
 border-radius: 5px;
+border: 1px solid lightgrey;
+font-size: 7px;
 
 }
 
@@ -653,6 +654,9 @@ input[type="submit"]{
   background-color: #431E8B;
   border-radius: 5px;
   color: ghostwhite;
-  font-size: 10px;
-  text-align: center;
+  font-size: 8px;
+  font-weight: bolder;
+
+
+
 }
