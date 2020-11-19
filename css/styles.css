@@ -593,8 +593,8 @@ margin-left: 5px;
 }
 
 .sendEmail,
-.setProfil,
-.button {
+.setProfil
+ {
 
   display:flex;
   justify-content: space-between;
@@ -757,5 +757,15 @@ input:checked + .slider:before {
   font-size: 10px;
   height: 30px;
   background-color: #f5f0ff;
+}
+
+.buttonUsers {
+
+  width: 145.5px;
+    heigth: 30px;
+    height: 30px;
+    margin: 10px auto auto 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
 }
 }
