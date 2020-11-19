@@ -284,7 +284,9 @@ grid-template-areas:
   'nav main main main main main '
   'nav main main main main main '
   'nav main main main main main '
-  'nav main main main main main ';
+  'nav main main main main main '
+  'nav footer footer footer footer footer'
+  'nav footer footer footer footer footer';
 
 
 }
@@ -305,6 +307,15 @@ main {
 
 display:grid;
 grid-area: main;
+
+  }
+
+  footer {
+
+
+    display:grid;
+    grid-area: footer;
+
 
   }
 
@@ -761,7 +772,7 @@ input:checked + .slider:before {
 
 .buttonUsers {
 
-  width: 145.5px;
+    width: 145.5px;
     heigth: 30px;
     height: 30px;
     margin: 10px auto auto 10px;
