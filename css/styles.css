@@ -286,6 +286,8 @@ grid-template-areas:
   'nav main main main main main '
   'nav main main main main main '
   'nav footer footer footer footer footer'
+  'nav footer footer footer footer footer'
+  'nav footer footer footer footer footer'
   'nav footer footer footer footer footer';
 
 
@@ -315,6 +317,7 @@ grid-area: main;
 
     display:grid;
     grid-area: footer;
+
 
 
   }
@@ -762,7 +765,7 @@ input:checked + .slider:before {
 .time {
 
   width: 307.5px;
-  margin: auto 0px auto 5px;
+  margin: auto 0px auto 10px;
   border-radius: 5px;
   border: 1px solid lightgrey;
   font-size: 10px;
@@ -770,13 +773,24 @@ input:checked + .slider:before {
   background-color: #f5f0ff;
 }
 
+
 .buttonUsers {
 
     width: 145.5px;
     heigth: 30px;
     height: 30px;
-    margin: 10px auto auto 10px;
+    margin: 17px auto auto 10px;
     border-radius: 5px;
     border: 1px solid lightgrey;
+    font-size: 10px;
 }
+
+.buttonUsers:hover{
+
+background-color: #431E8B;
+color: ghostwhite;
+
+}
+
+
 }
