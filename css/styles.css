@@ -4,12 +4,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: lightgrey;
 
+
 }
 
 header {
 
   background-color: #661aef;
   grid-area: header;
+  display:flex;
 
 }
 
@@ -26,8 +28,13 @@ grid-template-rows: 86px 100px 100px;
 
 grid-template-areas:
 
-'nav '
-'main';
+'header header header header header'
+'nav nav nav nav nav'
+'main main main main main'
+'main main main main main'
+'main main main main main'
+'main main main main main'
+'footer footer footer footer footer';
 
 background-color: white;
 
@@ -35,17 +42,6 @@ background-color: white;
 }
 
 
-.showAlert {
-
-  background-color: #661aef;
-  margin: auto 106px auto -5px;
-  border-radius: 5px;
-  size: fit-content;
-  text-align: center;
-  font-size: 15px;
-
-
-}
 
 
 
@@ -59,7 +55,25 @@ background-color: white;
     cursor: pointer;
 }
 
+.inputDash{
 
+  width: 500px;
+  margin: auto auto auto -5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  height:30px;
+  font-size: 10px;
+}
+
+.alert{
+
+  width: 500px;
+  margin: auto auto auto -5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  height:30px;
+  font-size: 10px;
+}
 
 .bar {
 
@@ -86,8 +100,8 @@ background-color: white;
 
   background-color: #431E8B;
   display: flex;
-  flex-direction: column;
   grid-area: nav;
+  height: 65%;
 
 }
 
@@ -243,13 +257,14 @@ img {
 
 .dashboardTitle{
 
-display: flex;
+
 justify-content: space-between;
 width: 640px;
 
 }
 
 .dashboardTitle h1{
+
 
 color:color: :#BDB4B4;;
 margin-left: 10px;
@@ -285,10 +300,12 @@ grid-template-areas:
   'nav main main main main main '
   'nav main main main main main '
   'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
+  'nav main main main main main '
   'nav footer footer footer footer footer'
   'nav footer footer footer footer footer'
-  'nav footer footer footer footer footer'
-  'nav footer footer footer footer footer';
+  ;
 
 
 }
@@ -317,11 +334,42 @@ grid-area: main;
 
     display:grid;
     grid-area: footer;
-    height: 3vh;
+
 
 
 
   }
+
+  .navSvg {
+
+    background-color: #431E8B;
+    display: flex;
+    flex-direction: column;
+    grid-area: nav;
+
+  }
+
+  .dashboardTitle{
+
+  display: flex;
+  justify-content: space-between;
+  width: 640px;
+
+  }
+
+  .showAlert {
+
+    width: 635px;
+    background-color: #661aef;
+    margin: auto 0 1% 10px;
+    border-radius: 5px;
+    size: fit-content;
+    text-align: center;
+    font-size: 15px;
+
+
+  }
+
 
   .dailyChart{
 
@@ -341,14 +389,11 @@ grid-area: main;
 
 .inputDash {
 
-  width: 62%;
+
+  width: 58%;
+  margin-left: 14%;
 }
 
-.alert{
-
-  margin: auto 14rem auto auto;
-  width: 768px;
-}
 
   .daily {
 
