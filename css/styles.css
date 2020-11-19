@@ -317,6 +317,7 @@ grid-area: main;
 
     display:grid;
     grid-area: footer;
+    height: 3vh;
 
 
 
@@ -680,7 +681,6 @@ input[type="submit"]{
   color: ghostwhite;
   font-size: 8px;
   font-weight: bolder;
-
 
 }
 
