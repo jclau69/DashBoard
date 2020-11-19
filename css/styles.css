@@ -747,3 +747,15 @@ input:checked + .slider:before {
 
   margin-top: 7px;
 }
+
+.time {
+
+  width: 307.5px;
+  margin: auto 0px auto 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 10px;
+  height: 30px;
+  background-color: #f5f0ff;
+}
+}
