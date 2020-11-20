@@ -168,16 +168,6 @@ color: #000000;
 
  }
 
-.SocialStats {
-
-  display: flex;
-  justify-content: space-between;
-  margin-right: 338px;
-  margin-bottom: 4%;
-
-
-
-}
 
 .daily h3
 {
@@ -272,8 +262,8 @@ img {
 .dashboardTitle{
 
 
-justify-content: space-between;
-width: 640px;
+  width: 500px;
+  margin: auto 0 0 -5px;
 
 }
 
@@ -282,6 +272,8 @@ width: 640px;
 
 color:color: :#BDB4B4;;
 margin-left: 10px;
+width: 175px;
+
 
 }
 
@@ -368,19 +360,42 @@ grid-area: main;
 
   display: flex;
   justify-content: space-between;
-  width: 640px;
+  width: 645px;
+
+  }
+
+  .dashboardTitle h1{
+
+
+  color:color: :#BDB4B4;;
+  margin-left: 10px;
+  width: 175px;
+  margin: auto;
 
   }
 
   .showAlert {
 
-    width: 635px;
+    width: 630px;
     background-color: #661aef;
-    margin: auto 0 1% 10px;
+    margin: auto 0 2% 1%;
     border-radius: 5px;
     size: fit-content;
     text-align: center;
     font-size: 15px;
+
+
+  }
+
+  .traffic-header
+
+   {
+
+ display: flex;
+ justify-content: space-between;
+ list-style: none;
+ margin-right: 308px;
+ width: 645px;
 
 
   }
@@ -404,9 +419,8 @@ grid-area: main;
 
 .inputDash {
 
-
-  width: 58%;
-  margin-left: 14%;
+  width: 65%;
+  margin: 3% 0%;
 }
 
 
@@ -431,6 +445,17 @@ grid-area: main;
 
     border-bottom: 1px solid lightgrey;
   }
+
+
+    .SocialStats {
+
+      display: flex;
+      justify-content: space-between;
+      margin-right: 299px;
+      margin-bottom: 4%;
+
+    }
+
 
   .social h3 {
 
