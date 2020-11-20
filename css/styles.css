@@ -254,6 +254,20 @@ img {
 
 }
 
+.showAlert {
+
+  width: 500px;
+  background-color: #661aef;
+  margin: auto 0 1% 10px;
+  border-radius: 5px;
+  size: fit-content;
+  text-align: center;
+  font-size: 15px;
+  margin: 2% auto 2% -5px;
+
+
+}
+
 
 .dashboardTitle{
 
@@ -342,6 +356,7 @@ grid-area: main;
 
   .navSvg {
 
+    height: 100%;
     background-color: #431E8B;
     display: flex;
     flex-direction: column;
