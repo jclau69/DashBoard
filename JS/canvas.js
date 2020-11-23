@@ -1,6 +1,7 @@
 var graph = document.getElementById('daily-chart').getContext('2d');
 var bar = document.getElementById('barMeter').getContext('2d');
 var dough = document.getElementById('doughMeter').getContext('2d');
+var media500 = window.matchMedia( "(min-width: 500px)" );
 
 var numbers = [500,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500];
 var numbersDaily = [50,100,150,200,250,300,350];
@@ -32,13 +33,28 @@ var chart = new Chart(graph, {
     // Configuration options go here
     options: {
 
-      layout: {
+      if(media500.matches){
+
+        layout: {
+              padding: {
+                  left: 0,
+                  right: 50,
+                  top: 0,
+                  bottom: 30
+
+              } else {
+
+
             padding: {
                 left: 0,
                 right: 125,
                 top: 0,
                 bottom: 30
             }
+
+  }
+    }
+      }
         },
 
       legend:{

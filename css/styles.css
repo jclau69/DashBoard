@@ -58,11 +58,11 @@ background-color: white;
 .inputDash{
 
   width: 500px;
-  margin: auto auto auto -5px;
   border-radius: 5px;
   border: 1px solid lightgrey;
   height:30px;
   font-size: 10px;
+  margin: auto;
 }
 
 .alert{
@@ -124,14 +124,14 @@ background-color: white;
 display: flex;
 justify-content: space-between;
 list-style: none;
-margin-right: 347px;
+width: 500px;
 
 
  }
 
  .traffic-header h3{
 
-   margin-left: 9px;
+   margin-left: 3px;
     padding: 3px;
 
 
@@ -273,6 +273,7 @@ img {
 color:color: :#BDB4B4;;
 margin-left: 10px;
 width: 175px;
+margin: auto;
 
 
 }
